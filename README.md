@@ -25,4 +25,4 @@ Java 개발자 과정 프론트앤드 강의 리포지토리
 
 3일차 레이아웃
 <img src ="https://user-images.githubusercontent.com/123910866/227390878-bd373509-da9d-4b59-8a21-3d798017718d.png" width="300">
-<img src="/image/day1.png">
+<img src="/image/aa.png">
