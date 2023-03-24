@@ -1,5 +1,5 @@
 # basic-html-2023
-Java 개발자 과정 프론트앤드 강의 리포지토리
+Java 개발자 과정 프론트앤드 리포지토리
 
 ## 1일차
 - 웹 기본
@@ -24,4 +24,17 @@ Java 개발자 과정 프론트앤드 강의 리포지토리
     - 반응형 웹
 
 3일차 레이아웃
-<img src="https://raw.githubusercontent.com/tjdrnr1217/basic-html-2023/Day3/image/a.png" width="300">
+<img src= "https://raw.githubusercontent.com/tjdrnr1217/basic-html-2023/main/image/aa.png" width="300">
+
+
+## 4일차
+- 프론트엔드 학습
+    - Grif 레이아웃
+    - 반응형 웹
+    - javavscript 기초
+
+# 5일차
+- 프론트엔드 학습
+    - javascript 마무리
+    - Bootstamp 학습
+    - 포트폴리오 웹사이트 만들기
