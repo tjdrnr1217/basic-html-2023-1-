@@ -33,6 +33,10 @@ Java 개발자 과정 프론트앤드 리포지토리
     - 반응형 웹
     - javavscript 기초
 
+- 4일차 그리드레이아웃 포토갤러리
+<img src= "https://raw.githubusercontent.com/tjdrnr1217/basic-html-2023/main/image/bb.png" width="300">
+
+
 # 5일차
 - 프론트엔드 학습
     - javascript 마무리
