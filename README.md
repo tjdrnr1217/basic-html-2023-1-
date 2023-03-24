@@ -24,4 +24,4 @@ Java 개발자 과정 프론트앤드 강의 리포지토리
     - 반응형 웹
 
 3일차 레이아웃
-<img src="https://raw.githubusercontent.com/tjdrnr1217/basic-html-2023/Day3/image/a.png" width="300">
+<img src="https://raw.githubusercontent.com/tjdrnr1217/basic-html-2023/main/image/.png" width="300">
