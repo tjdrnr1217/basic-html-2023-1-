@@ -41,4 +41,8 @@ Java 개발자 과정 프론트앤드 리포지토리
 - 프론트엔드 학습
     - javascript 마무리
     - Bootstamp 학습
-    - 포트폴리오 웹사이트 만들기
+    - Bootstrap Album example 클로닝
+
+# 6일차
+- 프론트엔드 학습
+    -포토폴리오 웹사이트 만들기
