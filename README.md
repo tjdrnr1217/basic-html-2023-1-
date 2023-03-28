@@ -31,20 +31,29 @@ Java 개발자 과정 프론트앤드 리포지토리
 - 프론트엔드 학습
     - Grif 레이아웃
     - 반응형 웹
-    - javavscript 기초
+    - javavscript
+    - jQuery
 
 - 4일차 그리드레이아웃 포토갤러리
+
 <img src= "https://raw.githubusercontent.com/tjdrnr1217/basic-html-2023/main/image/bb.png" width="300">
 
 
 # 5일차
 - 프론트엔드 학습
-    - javascript 마무리
+    - js/jQuery
     - Bootstamp 학습
     - Bootstrap Album example 클로닝
 
 # 6일차
 - 프론트엔드 학습
-    =Bootstrap Album 마무리
+    - Bootstrap Album example마무리
+    - 핀터레스트 스타일 웹페이지 클로닝
+
+6일차 Bootstrap 앨범 클로닝
+
 <img src= "https://raw.githubusercontent.com/tjdrnr1217/basic-html-2023/main/image/cc.png" width="300">
-    -포토폴리오 웹사이트 만들기
+
+## 7일차
+- 프론트엔드 학습
+    -
