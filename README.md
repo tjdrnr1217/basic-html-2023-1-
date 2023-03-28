@@ -46,5 +46,5 @@ Java 개발자 과정 프론트앤드 리포지토리
 # 6일차
 - 프론트엔드 학습
     =Bootstrap Album 마무리
-<img src= "https://raw.githubusercontent.com/tjdrnr1217/basic-html-2023/main/image/ccc.png" width="300">
+<img src= "https://raw.githubusercontent.com/tjdrnr1217/basic-html-2023/main/image/cc.png" width="300">
     -포토폴리오 웹사이트 만들기
