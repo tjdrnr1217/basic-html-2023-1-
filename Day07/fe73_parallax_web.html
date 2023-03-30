@@ -15,6 +15,26 @@
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"
             integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
     <script src='script/parallax.js'></script>
+    <script>
+        $(document).ready(function(){
+            var image=document.getElementById('hill1');
+            $('.contents').css({
+                'position':'absolute',
+                'top':image.height +'px'
+            });
+        });
+
+        //브라우저 사이즈 바뀔때마다
+        $(window).resize(function(){
+            var image=document.getElementById('hill1');
+            console.log(`${image.width} x ${image.height}`);
+
+            $('.contents').css({
+                'position':'absolute',
+                'top':image.height + 'px'
+            });
+        });
+    </script>
 </head>
 <body>
     <header>
