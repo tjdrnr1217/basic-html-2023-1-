@@ -92,6 +92,6 @@ Grayscale Single Page Template
 
 SB Admin Page 중간단계
 
-<img src= "https://raw.githubusercontent.com/tjdrnr1217/basic-html-2023/main/image/zz.gif" width="300">
+<img src= "https://raw.githubusercontent.com/tjdrnr1217/basic-html-2023/main/image/zz.png" width="300">
 
 
