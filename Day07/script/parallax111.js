@@ -24,15 +24,15 @@ $(window).scroll(function(){
     });
 });
 
-$(document).ready(function(){
-    var image=document.getElementById('hill1');
-    $('.contents').css({
-        'position':'absolute',
-        'top':image.height +'px'
-    });
-});
+// $(document).ready(function(){
+//     var image=document.getElementById('hill1');
+//     $('.contents').css({
+//         'position':'absolute',
+//         'top':image.height +'px'
+//     });
+// });
 
-// 브라우저 사이즈 바뀔때마다
+//브라우저 사이즈 바뀔때마다
 $(window).resize(function(){
     var image=document.getElementById('hill1');
     console.log(`${image.width} x ${image.height}`);
