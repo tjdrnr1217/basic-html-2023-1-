@@ -119,7 +119,8 @@ p {
     min-width: 0;
     flex-grow: 1;
     min-height: calc(100vh - 56px);
-    /* margin-left: -225px; */
+    margin-left: 0;
+    transition: margin 0.5s ease-in-out;
 }
 /* 전체 레이아웃 끝 */
 
@@ -344,4 +345,28 @@ p {
 
 #layoutError #layoutError_footer {
     min-width: 0;
+}
+
+.asd{
+    font-size: 1.25rem;
+    /* 1rem=16px */
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+
+#layoutAuthentication {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#layoutAuthentication #layoutAuthentication_content{
+    min-width: 0;
+    flex-grow: 1;
+}
+
+#layoutlogin{
+    margin-left: 500px;
 }
