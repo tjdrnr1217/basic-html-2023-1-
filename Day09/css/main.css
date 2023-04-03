@@ -331,15 +331,17 @@ p {
     border-bottom-right-radius: 0.5rem;
 }
 
-/* 에러페이지 */
-#layoutError{
+#layoutError {
     display: flex;
-    /* position: fixed 속성은 브라우저 화면의 상대 위치이다.
-    따라서 화면이 바뀌어도 고정된 위치를 설정 할 수 있고, 상위 요소에 영향을 받지 않는다. */
     flex-direction: column;
     min-height: 100vh;
 }
 
-/* #layoutError #layoutError_content {
+#layoutError #layoutError_content {
+    min-width: 0;
+    flex-grow: 1; /* 컨텐트 나머지 영역을 제일 밑으로  */
+}
 
-} */
+#layoutError #layoutError_footer {
+    min-width: 0;
+}

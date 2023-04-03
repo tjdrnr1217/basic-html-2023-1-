@@ -98,7 +98,7 @@ SB Admin Page 중간단계
 ## 10일차
 - 프론트엔드 실습
     - SB Admin Page 마무리
-        -simple-datatable.js
+        -[simple-datatable.js]https://github.com/fiduswriter/simple-datatables
 
 SB Admin Page 마무리
 
