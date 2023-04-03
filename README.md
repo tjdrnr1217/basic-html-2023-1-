@@ -98,6 +98,12 @@ SB Admin Page 중간단계
 ## 10일차
 - 프론트엔드 실습
     - SB Admin Page 마무리
+        -simple-datatable.js
+
+SB Admin Page 마무리
+
+<img src= "https://raw.githubusercontent.com/tjdrnr1217/basic-html-2023/main/image/yy.png" width="300">
+
 
 ## 11일차
 - 프론트엔드 실습
