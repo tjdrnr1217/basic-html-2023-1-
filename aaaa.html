@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>박준우페이지</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="/Test/박준우.css">
+    <!-- 1. Bootsarap용 css CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+        integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <style>
+        body {
+            border: 1px solid #ccc;
+            width: 1100px;
+            margin: 0 auto;
+        }
+
+        #pk {
+            border: 1px solid #ccc;
+        }
+
+        .col-sm-8 {
+            border: 1px solid #ccc;
+        }
+
+        .col-sm-4 {
+            border: 1px solid #ccc;
+        }
+
+        footer{
+            background-color: yellow;
+        }
+
+        footer > div {
+            text-align: center;
+        }
+
+       
+    </style>
+    <!-- <script>         
+            $(document).ready(function(){
+               $('#box').css({
+                    width: '100px',
+                    height: '100px',
+                    'background-color': 'yellow'           
+                });
+            
+            $('a').click(function(){
+                alert('홈 메뉴!');
+
+                e.preventDefault();
+                });
+            $('#btnToggle').click(function(){
+                $('.page').fadeToggle(500); 
+                });
+            });
+    
+        </script> -->
+</head>
+
+<body class="mt-5">
+    <div id="container">
+        <div id="pk">
+            <header>
+                <div id="logo" class="pt-4 ms-4">
+                    <h1>한글 Page</h1>
+                </div>
+                <nav class="pt-3">
+                    <ul>
+                        <a href="#">Home</a></li>
+                        <a href="#">About Me</a></li>
+                        <a href="#">Portfolio</a></li>
+                        <a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8">
+                <div class="article ps-3">
+                    <h4 class="pt-3">섹션1</h4>
+                    <h5 class="pt-3">섹션내용입니다.</h5>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="aside ps-2">
+                    <p class="pt-3">베너영역</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="py-4 bg-">
+            <div class="text-muted me-2"> &copy; 2023.박준우, inc reserved.</div>
+    </footer>
+
+
+    <!-- 2. Bootstrap용 js는 body에 위치해야 함! -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
