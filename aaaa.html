@@ -1,109 +1,145 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>박준우페이지</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel="stylesheet" href="/Test/박준우.css">
-    <!-- 1. Bootsarap용 css CDN -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.6.4.min.js"
-        integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>orca</title>
+   
+    <!-- 아이콘 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel='stylesheet' type='text/css' media='screen' href='css/orcamain.css'>
+
     <style>
-        body {
-            border: 1px solid #ccc;
-            width: 1100px;
-            margin: 0 auto;
+
+        .join_row1 > button
+        {
+            margin-left: 25px;
         }
 
-        #pk {
-            border: 1px solid #ccc;
+        .join_row1
+        {
+            padding-bottom: 50px;
         }
 
-        .col-sm-8 {
-            border: 1px solid #ccc;
+        .join_row1 > label
+        {
+            display:block;
+            width: 200px;
         }
-
-        .col-sm-4 {
-            border: 1px solid #ccc;
+        .cnt{
+            padding:50px 0;
+            width:1000px;
+            margin:0 auto;
         }
-
-        footer{
-            background-color: yellow;
+        .join_row1{
+            display:flex;
         }
-
-        footer > div {
-            text-align: center;
-        }
-
-       
     </style>
-    <!-- <script>         
-            $(document).ready(function(){
-               $('#box').css({
-                    width: '100px',
-                    height: '100px',
-                    'background-color': 'yellow'           
-                });
-            
-            $('a').click(function(){
-                alert('홈 메뉴!');
-
-                e.preventDefault();
-                });
-            $('#btnToggle').click(function(){
-                $('.page').fadeToggle(500); 
-                });
-            });
-    
-        </script> -->
 </head>
+<header class="he">
+    <div class="cnt">
+        <h3>Orca</h3>
+            <nav>
+               <ul id="topMenu">
+                    <li><a href="#">회사소개</a>
+                        <ul> <!-- 순서없는 리스트 -->
+                            <li><a href="#">연혁</a></li> <!-- li = º 이모양 -->
+                            <li><a href="#">조직도</a></li>
+                            <li><a href="#">CI</a></li>
+                            <li><a href="#">설립</a></li>
+                            <li><a href="#">M.V.V</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">해운정보</a>
+                        <ul>
+                            <li><a href="#">배송</a></li>
+                            <li><a href="#">주문</a></li>
+                            <li><a href="#">조회</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">사업분야</a>
+                        <ul>
+                            <li><a href="#">항만운영</a></li>
+                            <li><a href="#">항만하역</a></li>
+                            <li><a href="#">해운</a></li>
+                            <li><a href="#">항만부대사업</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">운행정보</a></li>
+                </ul>               
+            </nav>
 
-<body class="mt-5">
-    <div id="container">
-        <div id="pk">
-            <header>
-                <div id="logo" class="pt-4 ms-4">
-                    <h1>한글 Page</h1>
-                </div>
-                <nav class="pt-3">
-                    <ul>
-                        <a href="#">Home</a></li>
-                        <a href="#">About Me</a></li>
-                        <a href="#">Portfolio</a></li>
-                        <a href="#">Contact</a></li>
-                    </ul>
-                </nav>
-            </header>
-        </div>
+           
+            <aside class="top_menu">           
+                <ul class="btns">
+                   <a href="#" id="search"><i class="fa-solid fa-magnifying-glass fa-lg"></i></a>
+                    <li class="login"><a href="#">LOGIN</a></li>
+                    <li class="join"><a href="#">JOIN</a></li>
+                    <li class="menu"><a href="#">Menu</a></li>
+                </ul>
+            </aside>
     </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-8">
-                <div class="article ps-3">
-                    <h4 class="pt-3">섹션1</h4>
-                    <h5 class="pt-3">섹션내용입니다.</h5>
-                </div>
+</header>
+<body>
+    <div class="cnt">
+        <div class="joincnt">
+            <div class="join_row1">
+                <label for="oname">아이디</label>
+                <input type="text" id="oname"> 
             </div>
-            <div class="col-sm-4">
-                <div class="aside ps-2">
-                    <p class="pt-3">베너영역</p>
-                </div>
+
+            <div class="join_row1">
+                <label for="id">사업자등록번호</label>
+                <input type="text" id="id"> 
+                <button>확인</button>
             </div>
+
+            <div class="join_row1">
+                <label class="pw">비밀번호</label>
+                <input type="password" id="pw"> 
+            </div>
+
+            <div class="join_row1">
+                <label for="pw2">비밀번호 확인</label>
+                <input type="password" id="pw2"> 
+            </div>
+     
+            <div class="join_row1">
+                <label for="ophone">회사명</label>
+                <input type="text" id="ophone"> 
+            </div>
+
+            <div class="join_row1">
+                <label for="oaddress">회사연락처</label>
+                <input type="text" id="oaddress"> 
+            </div>
+
+            <div class="join_row1">
+                <label for="oaddress">주소</label>
+                <input type="text" id="oaddress"> 
+            </div>
+
+            <div class="join_row1">
+                <label for="oaddress">이메일</label>
+                <input type="text" id="oaddress"> 
+                <button>확인</button>
+            </div>
+            <button>가입하기</button>
         </div>
+      
     </div>
-    <footer class="py-4 bg-">
-            <div class="text-muted me-2"> &copy; 2023.박준우, inc reserved.</div>
-    </footer>
-
-
-    <!-- 2. Bootstrap용 js는 body에 위치해야 함! -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
-        crossorigin="anonymous"></script>
 </body>
-
+<footer id="footer">
+    <div class="text_box">
+        <p>
+            <span>이메일 : adsfadf@naver.com</span><br>
+            <span>Address : 부산 남구 신선로 365 부경대학교 </span><br>
+            <span>call : 000-0000-0000</span>
+        </p>
+    </div>
+</div>
+</footer>
 </html>
