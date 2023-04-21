@@ -39,6 +39,7 @@ list-style: none;
 display: flex;
 align-items: baseline;
 width: 100%;
+
 }
 
 ul
@@ -112,8 +113,8 @@ display: none;
 position: absolute; /* 물어볼거 */
 width: 150px;
 background-color: rgba(255, 255, 255, 0.6);
-left: 0;
-margin: 0;
+left: 0%;
+top: 100%;
 /* left: 20px; */
 padding-left: 0;
 }
@@ -192,6 +193,7 @@ i
     border-top: 2px solid #c8c8c8;
     position: relative;
     align-items: center;
+
 }
 
 #footer:before {
@@ -223,4 +225,13 @@ i
     color: aliceblue;
     font-size: 17px;
 }
-
+.cnt2
+{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.cnt2>img
+{
+    width: 100%;
+    height: 100%;
+}
