@@ -137,8 +137,6 @@ color:#0077cc;
 }
 
 
-
-
 #topMenu>li>ul 
 {
 display: none;
@@ -344,12 +342,12 @@ i
 .btn.text01
 {
     position: absolute;
-    z-index: 99;
+    z-index: 9;
     left: 180px; /*left top 등은 position: absolute; 있는 곳에서 사용*/
     top: 200px;
 }
 
-.txt>p
+.btn.text01>p
 {
     color: aliceblue;
     font-family: 'Happiness-Sans-Bold';
