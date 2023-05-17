@@ -10,11 +10,11 @@
     integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <link rel='stylesheet' type='text/css' media='screen' href='../orca/css/mypage.css'>
+
+    <link rel='stylesheet' type='text/css' media='screen' href='/orca/css/schedule.css'>
 
      <!-- jquery cdn -->
      <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
-
 </head>
 <header class="he">
     <div class="cnt">
@@ -64,54 +64,45 @@
     <div class="my-page">
         <div class="my-header">
             <div class="my-tex">
-                <span>MyPage</span>
+                <span>운행정보</span>
                 <hr>
             </div>
         </div>
-            <div class="my-body">          
-                <div class="my-wrap">
-                    <div class="my-box">
-                        <img src="/image/R.png" alt="">
-                        <div class="my-info">
-                            <h1>기업 님</h1>
-                            <p>부산광역시 남구 용당동 부경대학교 용당캠퍼스 산학협력관 301호</p>
-                            <h4>사업자등록번호</h4>
-                            <h5>010-0000-0000</h5>
-                            <div class="my-btn">
-                                <button><a href="">정보변경</a></button>
-                            </div>
-                        </div>
-                    </div>
+            <div class="or-box">              
                 </div>
-            </div>
-            <div class="or-box">
-                <div class="or-bt">
-                    <div class="bt1">
-                        <div class="btn txt1">
-                            <div class="icon1">
-                            </div>
-                            <p>주문 접수 대기</p><span><a href="">0 건</a></span>
-                        </div>
-                    </div>
-
-                    <div class="bt1">
-                        <div class="btn txt2">
-                            <div class="icon2">    
-                            </div>
-                            <p>주문 심사중</p><span><a href="">0 건</a></span>
-                        </div>
-                    </div>
-
-                    <div class="bt1">
-                        <div class="btn txt3">  
-                            <div class="icon3">
-                            </div>
-                            <p>주문 심사 완료</p><span><a href="">0 건</a></span>
-                        </div>
-                    </div>
+                <div class="or-table">
                     
+                    <div class="ot">
+                            <table class="table table-hover">
+                                <thead class="ot1">
+                                    <tr>
+                                        <th>순번</th>
+                                        <th>항구청코드</th>
+                                        <th>출발항</th>
+                                        <th>도착항</th>
+                                        <th>출발일</th>
+                                        <th>도착일</th>
+                                        <th>예상시간</th>			
+                                    </tr>
+                                </thead>
+                            <tbody class="ot1">
+                                <c:forEach var="obj" items="${aa}" >
+                                <tr>
+                                    <td>333</td>
+                                    <td>333</td>
+                                    <td>${obj.departureport}</td>
+                                    <td>333</td>
+                                    <td>333</td>
+                                    <td>333</td>
+                                    <td>333</td>            
+                                </tr>
+                                </c:forEach>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
+      
     </div>
 </body>
 <footer id="footer">

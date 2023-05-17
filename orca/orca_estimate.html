@@ -9,15 +9,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- 1. Bootstrap용 css CDN -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+   
     <!-- bootstrap용 아이콘-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <!-- 3. Bootstrap Icon용 CDN / font-awesome Icon용 CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel='stylesheet' type='text/css' media='screen' href='css/adminreview.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='/orca/css/estimate.css'>
 
+        <!-- jquery cdn -->
+        <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
    
     
 </head>
@@ -67,89 +67,84 @@
             </aside>
     </div>
 </header>
-<body>
-    
-    <div class="estimate_stanby_form">
-        <div class="estimate_stanby_inner">
+<body> 
+    <div class="box"> 
+        <div class="cnt1">
             <div class="cnt02">
-                <div class="tablediv">
-                    <table class="table">
-                        <caption>심사 정보 목록</caption>
-                        <thead>
-                        <tr>
-                            <th>견적번호</th>
-                            <th>부담금액</th>
-                            <th>항만시설사용료</th>
-                            <th>배등록번호</th>
-                            <th>화물번호</th>
-                            <th>운행시퀀스</th>
-                            <th>진행상태</th>
-                        </tr>
-                        </thead>
-                        <tbody id="tbody">
-                        <tr>
-                            <td>견적번호</td>
-                            <td>부담금액</td>
-                            <td>항만시설사용료</td>
-                            <td>배등록번호</td>
-                            <td>화물번호</td>
-                            <td>운행시퀀스</td>
-                            <td>진행상태</td>
-                        </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="estimate_form">
-        <div class="estimate_form_inner">
-            <div class="estimate_title">
-                <h2>견적심사내용</h2>
-            </div>
-
-            <div class="estimate_client_data">
-                <div class="estimate_client_content">
-                    <div class="estimate_cargo_title">
-                        <h2>신청자정보</h2>
-                    </div>
-                    <div>
-                        <label for="clientid">신청자명</label>
-                        <input type="text" id="clientid" value="아이디">
-                    </div>
-                    
-                    <div>
-                        <label for="clientphone">연락처</label>
-                        <input type="tel" id="clientphone" value="연락처">
-                    </div>
-        
-                    <div>
-                        <label for="clientemail">이메일</label>
-                        <input type="email" id="clientemail" value="이메일">
+                    <div class="tablediv">
+                        <table class="table">
+                            <caption>심사 정보 목록</caption>
+                            <thead>
+                            <tr>
+                                <th>견적번호</th>
+                                <th>부담금액</th>
+                                <th>항만시설사용료</th>
+                                <th>배등록번호</th>
+                                <th>화물번호</th>
+                                <th>운행시퀀스</th>
+                                <th>진행상태</th>
+                            </tr>
+                            </thead>
+                            <tbody id="tbody">
+                            <tr>
+                                <td>견적번호</td>
+                                <td>부담금액</td>
+                                <td>항만시설사용료</td>
+                                <td>배등록번호</td>
+                                <td>화물번호</td>
+                                <td>운행시퀀스</td>
+                                <td>진행상태</td>
+                            </tr>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
-            </div>
+        <div class="estimate_form">
 
-            <div class="estimate_content">
+                <div class="estimate_title">
+                    <h3>견적심사내용</h3>
+                </div>
+            <div class="estimate_form_inner">
+                <div class="estimate_client_data">
+                    <div class="estimate_client_content">
+                        <div class="estimate_cargo_title">
+                            <h2>신청자정보</h2>
+                        </div>
+                        <div class="row01">
+                            <label for="clientid">신청자명</label>
+                            <input type="text" id="clientid" value="아이디">
+                        </div>
+                        
+                        <div class="row01">
+                            <label for="clientphone">연락처</label>
+                            <input type="tel" id="clientphone" value="연락처">
+                        </div class="row01">
+            
+                        <div class="row01">
+                            <label for="clientemail">이메일</label>
+                            <input type="email" id="clientemail" value="이메일">
+                        </div>
+                    </div>
+                </div>
+
                 <div class="estimate_cargo_content">
                     <div class="estimate_cargo_title">
                         <h2>화물정보</h2>
                     </div>
         
-                    <div>
+                    <div class="row01">
                         <label for="cargono">화물번호</label>
                         <input type="text" id="cargono" value="화물번호">
                     </div>
         
-                    <div>
+                    <div class="row01">
                         <label for="cargotype">화물분류</label>
                         <input type="text" id="cargotype" value="화물분류">
                     </div>
         
-                    <div>
-                        <label for="cargono">화물번호</label>
-                        <input type="text" id="cargono" value="화물번호">
+                    <div class="row01">
+                        <label for="cargoweight">화물무게</label>
+                        <input type="text" id="cargoweight" value="화물번호">
                     </div>
                 </div>
 
@@ -157,34 +152,75 @@
                     <div class="estimate_cargo_title">
                         <h2>운행정보</h2>
                     </div>
-                    <div>
+                    <div class="row01">
                         <label for="scheduleno">운행번호</label>
                         <input type="text" id="scheduleno" value="운행번호">
                     </div>
         
-                    <div>
+                    <div class="row01">
                         <label for="portcode">항구청코드</label>
                         <input type="text" id="portcode" value="항구청코드">
                     </div>
-                    <div>
+
+                    <div class="row01">
                         <label for="dport">출발항</label>
                         <input type="text" id="dport" value="출발항">
                     </div>
-                    <div>
+
+                    <div class="row01">
                         <label for="aport">도착항</label>
                         <input type="text" id="aport" value="도착항">
                     </div>
-                    <div>
+
+                    <div class="row01">
                         <label for="atime">출발일</label>
                         <input type="text" id="atime" value="출발일">
                     </div>
-                    <div>
+
+                    <div class="row01">
                         <label for="dtime">도착일</label>
                         <input type="text" id="dtime" value="도착일">
                     </div>
-                    <div>
+
+                    <div class="row01">
                         <label for="etime">예상시간</label>
                         <input type="text" id="etime" value="예상시간">
+                    </div>
+                </div>
+
+                <div class="estimate_ship_content">
+                    <div class="estimate_ship_title">
+                        <h2>선박정보</h2>
+                    </div>
+        
+                    <div class="row01">
+                        <label for="shipno">배 등록번호</label>
+                        <input type="text" id="shipno" value="화물번호">
+                    </div>
+        
+                    <div class="row01">
+                        <label for="shipname">배 이름</label>
+                        <input type="text" id="shipname" value="화물분류">
+                    </div>
+        
+                    <div class="row01">
+                        <label for="shiptype">종류</label>
+                        <input type="text" id="shiptype" value="화물번호">
+                    </div>
+
+                    <div class="row01">
+                        <label for="shipmaxcargo">최대적재량</label>
+                        <input type="text" id="shipmaxcargo" value="화물번호">
+                    </div>
+
+                    <div class="row01">
+                        <label for="shippoint">지점</label>
+                        <input type="text" id="shippoint" value="화물번호">
+                    </div>
+
+                    <div class="row01">
+                        <label for="shipweight">선박무게</label>
+                        <input type="text" id="shipweight" value="화물번호">
                     </div>
                 </div>
 
@@ -192,12 +228,12 @@
                     <div class="estimate_pay_title">
                         <h2>금액정보</h2>
                     </div>
-                    <div>
+                    <div class="row01">
                         <label for="portfacfare">항만시설사용료</label>
                         <input type="text" id="portfacfare" value="항만시설사용료">
                     </div>
         
-                    <div>
+                    <div class="row01">
                         <label for="totalfare">부담금액</label>
                         <input type="text" id="totalfare" value="부담금액">
                     </div>
@@ -205,6 +241,7 @@
             </div>
         </div>
     </div>
+</div>
 </body>
 <footer id="footer">
     <div class="text_box">
@@ -217,3 +254,14 @@
 </div>
 </footer>
 </html>
+<script>
+
+    // 스크롤시 헤더 색상 변경
+    $(window).on('scroll',function(){
+                if($(window).scrollTop()){
+                    $('header').addClass('active');
+                }else{
+                    $('header').removeClass('active');
+                }
+            });
+</script>

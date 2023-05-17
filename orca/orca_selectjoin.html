@@ -9,12 +9,23 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Font Awesome 아이콘 css CDN-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- 3. Bootstrap Icon용 CDN / font-awesome Icon용 CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel='stylesheet' type='text/css' media='screen' href='css/singlepage.css'>
+  <link rel='icon' href="images/ui.ico">
+  <!--font awesome용 스크립트 CDN-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"
+      integrity="sha512-fD9DI5bZwQxOi7MhYWnnNPlvXdp/2Pj3XSTRrFs5FQa4mizyGLnJcN6tuvUS6LbmgN1ut+XGSABKvjN0H6Aoow=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-    <link rel='stylesheet' type='text/css' media='screen' href='../orca/css/mypage.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='/orca/css/selectjoin.css'>
 
-     <!-- jquery cdn -->
-     <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
-
+       <!-- jquery cdn -->
+       <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
 </head>
 <header class="he">
     <div class="cnt">
@@ -61,58 +72,16 @@
     </div>
 </header>
 <body>
-    <div class="my-page">
-        <div class="my-header">
-            <div class="my-tex">
-                <span>MyPage</span>
-                <hr>
+        <div class="sj">
+            <div class="btngroup">
+                <div class="com">
+                    <button id="company"><p>기업회원</p><i id="shipicon" class="fa-solid fa-ship"></i></button>
+                </div>
+                <div class="ind">
+                <button id="individual"><p>개인회원</p><i id="personicon" class="fa-solid fa-person"></i></button>
+                </div>
             </div>
         </div>
-            <div class="my-body">          
-                <div class="my-wrap">
-                    <div class="my-box">
-                        <img src="/image/R.png" alt="">
-                        <div class="my-info">
-                            <h1>기업 님</h1>
-                            <p>부산광역시 남구 용당동 부경대학교 용당캠퍼스 산학협력관 301호</p>
-                            <h4>사업자등록번호</h4>
-                            <h5>010-0000-0000</h5>
-                            <div class="my-btn">
-                                <button><a href="">정보변경</a></button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="or-box">
-                <div class="or-bt">
-                    <div class="bt1">
-                        <div class="btn txt1">
-                            <div class="icon1">
-                            </div>
-                            <p>주문 접수 대기</p><span><a href="">0 건</a></span>
-                        </div>
-                    </div>
-
-                    <div class="bt1">
-                        <div class="btn txt2">
-                            <div class="icon2">    
-                            </div>
-                            <p>주문 심사중</p><span><a href="">0 건</a></span>
-                        </div>
-                    </div>
-
-                    <div class="bt1">
-                        <div class="btn txt3">  
-                            <div class="icon3">
-                            </div>
-                            <p>주문 심사 완료</p><span><a href="">0 건</a></span>
-                        </div>
-                    </div>
-                    
-                </div>
-            </div>
-    </div>
 </body>
 <footer id="footer">
     <div class="text_box">

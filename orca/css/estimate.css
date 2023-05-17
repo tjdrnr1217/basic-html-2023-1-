@@ -123,7 +123,7 @@ text-align: center;
 #topMenu>li>a {
 display: block;
 /* 링크 텍스트를 블록으로  */
-color: #fff;
+color: #000;
 font-weight: 600;
 padding: 20px;
 }
@@ -215,11 +215,6 @@ i
     text-shadow: 0 -1px;
 }
 
-.fa-solid
-{
-    color: white;
-}
-
 #footer
 {
     display: flex;
@@ -230,17 +225,6 @@ i
     align-items: center;
 
 }
-
-#footer:before {
-    content: '';
-    position: absolute;
-    width: 550px;
-    height: 390px;
-    background: url('/');
-    bottom: 0;
-    left: 86px;
-}
-
 
 .text_box
 {   
@@ -256,127 +240,121 @@ i
     font-size: 17px;
 }
 
+table {
+    margin: 0 auto;
+     margin-top: 30px;
+    width: 80%;
+    height: 300px;
+    border-top: 1px solid #444444;
+    border-collapse: collapse;
+ }
+ 
+ th, td {
+    text-align: center;
+    border-bottom: 1px solid #444444;
+    padding: 10px;
+ }
+ th{
+     font-family: 'yg-jalnan';
+ }
+ td{
+     font-family: 'Pretendard-Regular';
+ }
+ .input-group{
+     display: flex;
+     margin-top: 100px;
+     margin-left: 68%;
+     width: 500px;
+ }
+ caption{
+     font-family: 'Happiness-Sans-Bold';
+     text-align: center;
+     caption-side: top;
+     margin-bottom: 10px;
+     font-size: 20px;
+     color: #0d99ff;
+     font-weight: 800;
+     
+ }
 
-.slide01
-{
-    width:100%;
-    background: url('/orca/images/항구1.jpg') no-repeat center/cover;
-    height: 100vh;
-    filter: brightness(0.8); /* 사진 필터 */
+.tablediv{
+     display: flex;
+     justify-content: center;
+     width: 100%;
+ }
+ 
+ h2{
+     color: #0d99ff;
+     font-family: 'yg-jalnan';
+ }
+
+ h3
+ {
+    color: #0d99ff;
+    font-family: 'yg-jalnan';
+    font-size: 40px;
+ }
+ 
+ .estimate_form .estimate_form_inner input{
+     font-family: 'Pretendard-Regular';
+ }
+ .estimate_form .estimate_form_inner label{
+     font-family: 'Happiness-Sans-Bold';
+ }
+ input{
+    display: block;
+     width: 200px;
+     height: 32px;
+     font-size: 15px;
+     padding-left: 10px;
+     border: 0;
+     border-radius: 15px;
+     background-color: #e6e6e6;
+     margin-bottom: 5px;
+ } 
+ 
+ .cnt02
+ {
+    padding-top: 100px;
+    width: 100%;
 }
 
-.cnt2
+.cnt1
 {
-    position:relative;  
-    height:100vh; 
-}
-.slide02
-{
-    width:100%; 
-    background: url('/orca/images/하역1.jpg') no-repeat center/cover;
-    height: 1279px;
-}
-
-.slide03
-{
-    width:100%; 
-    background: url('/orca/images/해운1.jpg') no-repeat center/cover;
-    height: 1279px;
-}
-
-.main-box
-{
-    position:absolute; 
-    bottom:30px; 
-    /* left:50%;   위아래 두 세트는 position:absolute; 사용시 가운데 정렬 
-    transform: translateX(-50%); */
-    z-index: 9;
-    width:100%;
-    height:200px;
-    background: rgba(0,119,204,0.6);
-}
-.main-box .box-btn{
-    width:auto;
-    display:flex;
-    justify-content: space-evenly;
-    height:100%;
-    padding:0 150px;
-}
-.main-box .box-btn .btn{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    padding-top:32px;
-    width:calc(100% / 3);
+    height: 120vh;
 }
 
-.main-box .box-btn .btn:nth-last-child(1){
-    border-right:none;
-}
-
-
-.main-box .box-btn .btn:hover{
-    background: #2964b4;
-}
-
-.main-box .btn p
+.estimate_form
 {
-    color:#fff;
-    font-size: 25px;
-    font-weight:600;
-    margin:0;
+    width: 100%;
+    padding-top: 50px;
 }
 
-.circle
+.estimate_form_inner
+{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+
+.estimate_title
 {
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
-.fa-lg.custom {
-    font-size: 3.5em;
-    line-height: .05em;
-    vertical-align: -0.075em;
-    color:#fff;
-}
-
-.btn.text01
+.row01
 {
-    position: absolute;
-    z-index: 9;
-    left: 180px; /*left top 등은 position: absolute; 있는 곳에서 사용*/
-    top: 200px;
+    display: flex;
 }
 
-.btn.text01>p
+.row01 > label
 {
-    color: aliceblue;
-    font-family: 'Happiness-Sans-Bold';
-    font-size: 60px;
+    display:block;
+    width: 120px;
+    font-family: 'yg-jalnan';
 }
-
-.swiper{
-    height:100%;
-}
-
-.swiper-wrapper{
-    height:auto;
-}
-
-.ico-box{
-    width:56px;
-    height:70px;
-}
-
-#footer:before {
-    content: '';
-    position: absolute;
-    width: 550px;
-    height: 390px;
-    background: url('/');
-    bottom: 0;
-    left: 86px;
-}
-

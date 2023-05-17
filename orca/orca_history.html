@@ -10,18 +10,21 @@
     integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <link rel='stylesheet' type='text/css' media='screen' href='../orca/css/mypage.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='/orca/css/histroy.css'>
 
+    
      <!-- jquery cdn -->
      <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
-
+    
 </head>
 <header class="he">
     <div class="cnt">
-        <h3>Orca</h3>
+        <div onclick="location.href='#'">
+            <h3>Orca</h3>
+        </div>
             <nav>
                <ul id="topMenu">
-                    <li><a href="#">회사소개</a>
+                    <li class="tp"><a href="#">회사소개</a>
                         <ul> <!-- 순서없는 리스트 -->
                             <li><a href="#">연혁</a></li> <!-- li = º 이모양 -->
                             <li><a href="#">조직도</a></li>
@@ -64,54 +67,43 @@
     <div class="my-page">
         <div class="my-header">
             <div class="my-tex">
-                <span>MyPage</span>
+                <span>연 혁</span>
                 <hr>
             </div>
         </div>
-            <div class="my-body">          
-                <div class="my-wrap">
-                    <div class="my-box">
-                        <img src="/image/R.png" alt="">
-                        <div class="my-info">
-                            <h1>기업 님</h1>
-                            <p>부산광역시 남구 용당동 부경대학교 용당캠퍼스 산학협력관 301호</p>
-                            <h4>사업자등록번호</h4>
-                            <h5>010-0000-0000</h5>
-                            <div class="my-btn">
-                                <button><a href="">정보변경</a></button>
-                            </div>
-                        </div>
+        <div class="hcnt">
+            <div class="h1box1" >
+                <div class="h1box-img" >
+                    <div class="text01" >
+                        <p>2023.01 ~ 2023.03</p>
                     </div>
                 </div>
-            </div>
-            <div class="or-box">
-                <div class="or-bt">
-                    <div class="bt1">
-                        <div class="btn txt1">
-                            <div class="icon1">
-                            </div>
-                            <p>주문 접수 대기</p><span><a href="">0 건</a></span>
-                        </div>
-                    </div>
-
-                    <div class="bt1">
-                        <div class="btn txt2">
-                            <div class="icon2">    
-                            </div>
-                            <p>주문 심사중</p><span><a href="">0 건</a></span>
-                        </div>
-                    </div>
-
-                    <div class="bt1">
-                        <div class="btn txt3">  
-                            <div class="icon3">
-                            </div>
-                            <p>주문 심사 완료</p><span><a href="">0 건</a></span>
-                        </div>
-                    </div>
-                    
+                <div class="b1h2">     
+                        <ul class="h1list"> <!-- 순서없는 리스트 -->
+                            <li>2023.01 Orca 설립</li> <!-- li = º 이모양 -->
+                            <li>2023.02 Orca 법인전환</li>
+                            <li>2023.03 Orca 인원조정</li>
+                        </ul>                 
                 </div>
             </div>
+
+            <div class="h1box2">
+                <div class="h1box-img">
+                    <div class="text01" >
+                        <p>2023.04 ~ 2023.06</p>
+                    </div>
+                </div>
+                <div class="b1h2">     
+                        <ul class="h1list"> <!-- 순서없는 리스트 -->
+                            <li>2023.04 Orca 설립</li> <!-- li = º 이모양 -->
+                            <li>2023.05 Orca 법인전환</li>
+                            <li>2023.06 Orca 인원조정</li>
+                        </ul>                 
+                </div>
+            </div>
+        
+           
+        </div>
     </div>
 </body>
 <footer id="footer">
