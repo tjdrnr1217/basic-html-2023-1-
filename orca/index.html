@@ -136,10 +136,50 @@
             });
         </script>
     </div>
-    <div>
-        <h1>오르카</h1>
-    </div>  
-  
+    <div class="cnt3">
+        <div class="swiper mySwiper slide2">
+            <div class="swiper-wrapper">
+            <div class="swiper-slide sli01">
+
+            </div>
+            <div class="swiper-slide sli02">
+
+            </div>
+            <div class="swiper-slide sli03">
+
+            </div>
+            <div class="swiper-slide sli04">
+
+            </div>
+            </div>
+            <div class="swiper-button-next p2"></div>
+            <div class="swiper-button-prev p3"></div>
+            <div class="swiper-pagination "></div>
+        </div>
+    </div>
+    <script>
+      var swiper = new Swiper(".slide2", {
+              cssMode: true,
+              spaceBetween: 30,    // 슬라이드 사이 여백
+              slidesPerView : 3,
+              navigation: {
+                nextEl: ".p2",
+                prevEl: ".p3",
+              },
+
+              pagination: {
+                el: ".swiper-pagination",
+              },
+              mousewheel: true,
+              keyboard: true,
+              loop:true,
+              loopAdditionalSlides : 1, 
+              autoplay : {  // 자동 슬라이드 설정 , 비 활성화 시 false
+                delay : 3000,   // 시간 설정
+                disableOnInteraction : true,  // false로 설정하면 스와이프 후 자동 재생이 비활성화 되지 않음
+                },
+            });
+      </script>
 </body>
 <footer id="footer">
     <div class="text_box">
